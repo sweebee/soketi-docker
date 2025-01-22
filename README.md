@@ -4,7 +4,11 @@ A simple way to set up Soketi with a secure connection using a Let's Encrypt cer
 
 ## Setup
 
-create an `.env` file:
+```
+git clone git@github.com:sweebee/soketi-docker.git && cd soketi-docker && cp .env.example .env
+```
+
+Edit the `.env` file:
 
 ```env
 DOMAIN=ws.mydomain.com
