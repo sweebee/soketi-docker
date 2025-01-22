@@ -1,0 +1,4 @@
+${DOMAIN} {
+  reverse_proxy soketi:6001
+  encode gzip
+}
